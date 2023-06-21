@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <!-- VLibras  -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"> </div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"> </div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"> </script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+ </head>
+ <!--biblioteca JQuery-->
+<script src="Script/jquery-3.2.1.min.js"> </script>
+
+<!--script com a função de aumentar a fonte-->
+<script src="Script/alterarFonte.js"> </script>
+ <!-- CONTRASTE -->
+<style>
+    body {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    
+    .high-contrast {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+</style>
+
+<script>
+    function toggleContrast() {
+        var bodyElement = document.querySelector('body');
+        bodyElement.classList.toggle('high-contrast');
+    }
+</script>
+
+<!-- end CONTRASTE-->
+<center> 
+<h1>
+<b>Preconceito </b> 
+</center>
+</h1>
+<p class="acessibilidade">O racismo e o preconceito são questões profundamente arraigadas em nossa sociedade, 
+mesmo que estejamos em constante busca por igualdade e justiça. Infelizmente, essas formas de discriminação persistem, causando imenso sofrimento e perpetuando desigualdades em diversos aspectos da vida.
+<br>
+O racismo é a crença de que algumas raças são superiores a outras, levando à marginalização, 
+opressão e violência contra grupos étnicos específicos. É uma ideologia que não tem base científica e apenas serve para dividir e enfraquecer nossa coletividade. Ninguém deve ser tratado de forma diferente ou desigual por causa da cor de sua pele, origem étnica ou cultura.
+<br>
+O preconceito, por sua vez, é uma atitude preconcebida baseada em estereótipos, 
+julgamentos injustos e intolerância em relação a certos grupos. Pode se manifestar em várias formas, seja no âmbito racial, religioso, de gênero, orientação sexual, entre outros. O preconceito limita o potencial humano, criando barreiras que impedem a inclusão, a compreensão mútua e o respeito pela diversidade.
+<br>
+Combater o racismo e o preconceito exige um esforço conjunto de toda a sociedade. É necessário educar e conscientizar as pessoas desde cedo sobre a importância da igualdade e da valorização da diversidade. Devemos promover a empatia, incentivando o diálogo aberto, o respeito mútuo e a troca de experiências entre diferentes grupos étnicos e culturais.
+<br>
+Além disso, é fundamental garantir que as leis e políticas sejam implementadas de forma efetiva para prevenir e punir casos de discriminação racial e preconceito. Instituições governamentais, organizações não governamentais e a sociedade civil como um todo devem trabalhar em conjunto para criar um ambiente onde todos os indivíduos sejam tratados com dignidade e igualdade de oportunidades.
+<br>
+É importante reconhecer que o combate ao racismo e ao preconceito é um processo contínuo, que exige uma reflexão constante sobre nossas próprias atitudes e privilégios. Devemos estar dispostos a reconhecer nossos próprios preconceitos e ações discriminatórias, buscando corrigi-los e promovendo uma mudança cultural que valorize a diversidade em todas as suas formas.
+<br>
+Somente quando todos nos unirmos contra o racismo e o preconceito, poderemos construir uma sociedade verdadeiramente justa e igualitária. Cada indivíduo tem o poder de fazer a diferença, seja através de pequenas ações no cotidiano ou de engajamento em movimentos e organizações que lutam pela igualdade. Juntos, podemos construir um futuro onde a cor da pele, a origem étnica ou qualquer outra característica não seja motivo de discriminação, mas sim motivo de orgulho e celebração da riqueza humana.
+
+<center>
+<img src="imagem.jpg" alt="Protesto contra o racismo" width=700 height=500>
+</center>
+<strong>
+<p class="acessibilidade"> 
+Existe uma lei que pune quem pratica tais atos?
+</strong>
+<br>
+A Lei 7.716/89, conhecida com Lei do Racismo, pune todo tipo de discriminação ou preconceito, seja de origem, raça, sexo, cor, idade.
+</br>
+<strong>
+<p class="acessibilidade">Pessoas que foram importantes na luta contra o racismo:
+</strong>
+<br>
+Patrice Lumumba;
+<br>
+Lélia Gonzales;
+<br>
+Luiz Gama;
+<br>
+Malcon X;
+<br>
+Carolina Maria de Jesus;
+<br>
+Rosa Parks;
+<br>
+Marielle Franco
+</br>
+
+</p class="acessibilidade">  
+<br>
+<center>
+        <embed src="video.mp4" width="700" height="500" autoplay="false">
+</center>
+ <!-- BOTÕES DE ACESSIBILIDADE -->
+          <div style="position:fixed!important; top:10px; width:160px; height:50px; left:80%;">
+            <button class="botao" onclick="alterarFonte('a');" title="Aumentar fonte"> A+ </button>
+            <button class="botao" onclick="alterarFonte('d');" title="Diminuir fonte"> A- </button>
+            <button class="botao" onclick="alterarFonte('n');" title="Fonte normal"> A </button>
+            <button onclick="toggleContrast()">Alternar Contraste</button>
+        </div>
+ <!-- end BOTÕES DE ACESSIBILIDADE -->
+        <script src="js/main.js"></script>
+  </body>
